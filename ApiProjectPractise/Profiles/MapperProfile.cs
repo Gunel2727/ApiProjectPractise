@@ -14,7 +14,9 @@ namespace ApiProjectPractise.Profiles
             CreateMap<Product,ProductInCategoryReturnDto>();
             CreateMap<CategoryUpdateDto,Category>();
             CreateMap<ProductCreateDto,Product>();
-            
+                CreateMap<Product,ProductReturnDto>();
+                CreateMap<Category,CategoryInProductReturnDto>();
+
         }
     }
 }

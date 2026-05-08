@@ -4,6 +4,7 @@ using ApiProjectPractise.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiProjectPractise.Controllers
 {
@@ -14,14 +15,35 @@ namespace ApiProjectPractise.Controllers
             [HttpGet]
             public IActionResult GetProducts()
             {
-                var products = appDbContext.Products.ToList();
-                return Ok(products);
+                var products = appDbContext.Products
+                .Include(p => p.Category)
+                .ToList();
+                    var productDtos = mapper.Map<List<ProductReturnDto>>(products);
+                    return Ok(productDtos);
+            
             }
-           
-            [HttpPost]
+            [HttpGet("{id}")]
+            public IActionResult GetProduct(int id) {
+                var product = appDbContext.Products
+                    .Include(p => p.Category)
+                    .FirstOrDefault(p => p.Id == id);
+                        if (product == null)
+                        {
+                            return NotFound();
+                        }
+                        var productDto = mapper.Map<ProductReturnDto>(product);
+                        return Ok(productDto);
+            }
+
+        [HttpPost]
             public IActionResult AddProduct(ProductCreateDto productCreateDto)
             {
-                    var newProduct = mapper.Map<Product>(productCreateDto);
+                    var category= appDbContext.Categories.Find(productCreateDto.CategoryId);
+                    if (category == null)
+                    {
+                        return BadRequest("Invalid CategoryId");
+            }
+            var newProduct = mapper.Map<Product>(productCreateDto);
                     appDbContext.Products.Add(newProduct);
                     appDbContext.SaveChanges();
                     return Ok(newProduct);
