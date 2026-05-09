@@ -18,10 +18,10 @@ namespace ApiProjectPractise.Data.Configurations
             builder.Property(p => p.Price)
                 .IsRequired()
                 .HasColumnType("decimal(18,2)");
-            builder.Property(p => p.CreatedDate)
+            builder.Property(p => p.CreatedAt)
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
-            builder.Property(p => p.UpdatedDate)
+            builder.Property(p => p.UpdatedAt)
                 .IsRequired(false);
              builder.HasOne(p => p.Category)
                 .WithMany(c => c.Products)

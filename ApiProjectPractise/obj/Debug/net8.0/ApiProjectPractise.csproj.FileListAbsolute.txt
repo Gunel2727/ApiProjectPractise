@@ -139,10 +139,10 @@ C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\ApiProjectPractise.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -49,20 +49,16 @@ namespace ApiProjectPractise.Controllers
                     return Ok(newProduct);
         }
             [HttpPut("{id}")]
-            public IActionResult UpdateProduct(int id, Product product)
+            public IActionResult UpdateProduct(int id, ProductUpdateDto productUpdateDto)
             {
                     var existingProduct = appDbContext.Products.Find(id);
                     if (existingProduct == null)
                     {
                         return NotFound();
                     }
-                    existingProduct.Name = product.Name;
-                    existingProduct.Description = product.Description;
-                    existingProduct.Price = product.Price;
-                    existingProduct.CategoryId = product.CategoryId;
-                    existingProduct.UpdatedDate = DateTime.Now;
+                   mapper.Map(productUpdateDto, existingProduct);
                     appDbContext.SaveChanges();
-                    return Ok(existingProduct);
+                    return Ok();
             }
             [HttpDelete("{id}")]
             public IActionResult DeleteProduct(int id)

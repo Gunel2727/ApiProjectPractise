@@ -1,5 +1,6 @@
 ﻿using ApiProjectPractise.Data;
 using ApiProjectPractise.Dtos.CategoryDtos;
+using ApiProjectPractise.Extensions;
 using ApiProjectPractise.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -39,6 +40,7 @@ namespace ApiProjectPractise.Controllers
             public IActionResult Post(CategoryCreateDto categoryCreateDto)
             {
                 var newCategory = mapper.Map<Category>(categoryCreateDto);
+                
             appDbContext.Categories.Add(newCategory);
                 appDbContext.SaveChanges();
                 return Ok(newCategory);
@@ -52,7 +54,7 @@ namespace ApiProjectPractise.Controllers
                     return NotFound();
                 }
                 mapper.Map(categoryUpdateDto, existingCategory);
-            appDbContext.SaveChanges();
+                appDbContext.SaveChanges();
                 return Ok();
         }
             [HttpDelete("{id}")]

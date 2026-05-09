@@ -13,7 +13,8 @@ namespace ApiProjectPractise
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-            services.AddAutoMapper(opt=>opt.AddProfile<MapperProfile>());
+            services.AddHttpContextAccessor();
+            services.AddAutoMapper(opt=>opt.AddProfile(new MapperProfile(new HttpContextAccessor())));
         }
     }
 }
