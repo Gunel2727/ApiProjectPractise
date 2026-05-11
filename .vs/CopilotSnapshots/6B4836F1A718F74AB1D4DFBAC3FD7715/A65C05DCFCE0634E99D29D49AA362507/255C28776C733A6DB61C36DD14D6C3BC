@@ -1,4 +1,4 @@
-using ApiProjectPractise;
+﻿using ApiProjectPractise;
 using ApiProjectPractise.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,20 +17,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-else
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
 app.UseStaticFiles();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/", () => Results.Redirect("/swagger"));
-
 app.Run();
-
-Console.WriteLine("Hello, World!");

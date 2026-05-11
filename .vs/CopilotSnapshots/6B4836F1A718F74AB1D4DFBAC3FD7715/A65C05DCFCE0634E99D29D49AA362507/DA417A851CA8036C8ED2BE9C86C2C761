@@ -1,4 +1,4 @@
-using ApiProjectPractise;
+﻿using ApiProjectPractise;
 using ApiProjectPractise.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,5 +32,3 @@ app.MapControllers();
 app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.Run();
-
-Console.WriteLine("Hello, World!");

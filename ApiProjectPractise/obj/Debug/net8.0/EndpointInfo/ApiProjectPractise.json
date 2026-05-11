@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "ApiProjectPractise"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category": {
       "get": {
         "tags": [
@@ -25,6 +37,7 @@
             "name": "Name",
             "in": "query",
             "schema": {
+              "maxLength": 100,
               "type": "string"
             }
           },
