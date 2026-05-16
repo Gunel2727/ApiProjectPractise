@@ -37,7 +37,6 @@
             "name": "Name",
             "in": "query",
             "schema": {
-              "maxLength": 100,
               "type": "string"
             }
           },

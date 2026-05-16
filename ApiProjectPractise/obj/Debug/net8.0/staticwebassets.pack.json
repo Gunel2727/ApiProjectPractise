@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\wwwroot\\images\\1259979b-69b0-4ddf-977d-99bf0e224b5e.png",
+      "PackagePath": "staticwebassets\\images\\1259979b-69b0-4ddf-977d-99bf0e224b5e.png"
+    },
+    {
+      "Id": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\wwwroot\\images\\98d31154-c66b-4544-8bb7-1f6815a5afca.png",
+      "PackagePath": "staticwebassets\\images\\98d31154-c66b-4544-8bb7-1f6815a5afca.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiProjectPractise.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiProjectPractise.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiProjectPractise.props",
+      "PackagePath": "build\\ApiProjectPractise.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiProjectPractise.props",
+      "PackagePath": "buildMultiTargeting\\ApiProjectPractise.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiProjectPractise.props",
+      "PackagePath": "buildTransitive\\ApiProjectPractise.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

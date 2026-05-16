@@ -1,5 +1,6 @@
 ﻿using ApiProjectPractise.Data;
 using ApiProjectPractise.Profiles;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiProjectPractise
@@ -15,6 +16,7 @@ namespace ApiProjectPractise
             services.AddSwaggerGen();
             services.AddHttpContextAccessor();
             services.AddAutoMapper(opt=>opt.AddProfile(new MapperProfile(new HttpContextAccessor())));
+            services.AddValidatorsFromAssemblyContaining<Program>();
         }
     }
 }

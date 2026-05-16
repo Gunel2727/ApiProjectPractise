@@ -3,6 +3,7 @@ using ApiProjectPractise.Dtos.CategoryDtos;
 using ApiProjectPractise.Extensions;
 using ApiProjectPractise.Models;
 using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ namespace ApiProjectPractise.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoryController(AppDbContext appDbContext,IMapper mapper) : ControllerBase
+    public class CategoryController(AppDbContext appDbContext,IMapper mapper,IValidator<CategoryCreateDto> validator) : ControllerBase
     {
         [HttpGet]
         public IActionResult Get()
@@ -39,9 +40,15 @@ namespace ApiProjectPractise.Controllers
             [HttpPost]
             public IActionResult Post(CategoryCreateDto categoryCreateDto)
             {
-                var newCategory = mapper.Map<Category>(categoryCreateDto);
+               var validationResult=validator.Validate(categoryCreateDto);
+                if (!validationResult.IsValid)
+                {
+                return BadRequest(validationResult.Errors);
+                 }
+
+            var newCategory = mapper.Map<Category>(categoryCreateDto);
                 
-            appDbContext.Categories.Add(newCategory);
+                 appDbContext.Categories.Add(newCategory);
                 appDbContext.SaveChanges();
                 return Ok(newCategory);
              }

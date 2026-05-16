@@ -1,7 +1,9 @@
 ﻿using ApiProjectPractise.Data;
+using ApiProjectPractise.Dtos.CategoryDtos;
 using ApiProjectPractise.Dtos.ProductDtos;
 using ApiProjectPractise.Models;
 using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +12,7 @@ namespace ApiProjectPractise.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController(AppDbContext appDbContext,IMapper mapper) : ControllerBase
+    public class ProductController(AppDbContext appDbContext,IMapper mapper,IValidator<ProductCreateDto> validator) : ControllerBase
     {
             [HttpGet]
             public IActionResult GetProducts()
@@ -38,16 +40,21 @@ namespace ApiProjectPractise.Controllers
         [HttpPost]
             public IActionResult AddProduct(ProductCreateDto productCreateDto)
             {
-                    var category= appDbContext.Categories.Find(productCreateDto.CategoryId);
+                var validationResult = validator.Validate(productCreateDto);
+                if (!validationResult.IsValid)
+                {
+                    return BadRequest(validationResult.Errors);
+                }
+            var category= appDbContext.Categories.Find(productCreateDto.CategoryId);
                     if (category == null)
                     {
                         return BadRequest("Invalid CategoryId");
-            }
-            var newProduct = mapper.Map<Product>(productCreateDto);
+                    }
+                 var newProduct = mapper.Map<Product>(productCreateDto);
                     appDbContext.Products.Add(newProduct);
                     appDbContext.SaveChanges();
                     return Ok(newProduct);
-        }
+             }
             [HttpPut("{id}")]
             public IActionResult UpdateProduct(int id, ProductUpdateDto productUpdateDto)
             {
