@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunelemu\\desktop\\apiprojectpractise\\apiprojectpractise\\dtos\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +54,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Profiles\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T06:30:56.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\UserDtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Dtos\\UserDtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\UserDtos\\RegisterDto.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Dtos\\UserDtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwB4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T06:14:26.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T06:11:39.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Program.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Program.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Program.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T05:59:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T06:02:05.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Models\\AppUser.cs",
@@ -51,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\ProductDtos\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Dtos\\ProductDtos\\ProductCreateDto.cs",
@@ -64,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\ProductController.cs",
@@ -90,26 +175,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\ServiceRegistration.cs",
               "RelativeToolTip": "ApiProjectPractise\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T10:03:02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CategoryCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\CategoryDtos\\CategoryCreateDto.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Dtos\\CategoryDtos\\CategoryCreateDto.cs",
               "ToolTip": "C:\\Users\\gunelemu\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\CategoryDtos\\CategoryCreateDto.cs",
               "RelativeToolTip": "ApiProjectPractise\\Dtos\\CategoryDtos\\CategoryCreateDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T10:02:28.384Z",
               "EditorCaption": ""

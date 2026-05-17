@@ -1,5 +1,6 @@
 ﻿using ApiProjectPractise.Dtos.CategoryDtos;
 using ApiProjectPractise.Dtos.ProductDtos;
+using ApiProjectPractise.Dtos.UserDtos;
 using ApiProjectPractise.Extensions;
 using ApiProjectPractise.Models;
 using AutoMapper;
@@ -31,6 +32,7 @@ namespace ApiProjectPractise.Profiles
                 CreateMap<Product,ProductReturnDto>();
                 CreateMap<Category,CategoryInProductReturnDto>();
             CreateMap<ProductUpdateDto,Product>();
+            CreateMap<RegisterDto, AppUser>();
 
         }
     }

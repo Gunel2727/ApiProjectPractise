@@ -16,6 +16,22 @@
     ]
   },
   {
+    "ContainingType": "ApiProjectPractise.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "ApiProjectPractise.Dtos.UserDtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiProjectPractise.Controllers.CategoryController",
     "Method": "Get",
     "RelativePath": "api/Category",
