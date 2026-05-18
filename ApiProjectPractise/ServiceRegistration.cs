@@ -1,5 +1,4 @@
-﻿using System.Text;
-using ApiProjectPractise.Data;
+﻿using ApiProjectPractise.Data;
 using ApiProjectPractise.Models;
 using ApiProjectPractise.Profiles;
 using ApiProjectPractise.Services;
@@ -9,6 +8,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens.Experimental;
+using Microsoft.OpenApi.Models;
+using System.Text;
 
 namespace ApiProjectPractise
 {
@@ -20,7 +21,7 @@ namespace ApiProjectPractise
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
+           
             services.AddHttpContextAccessor();
             services.AddAutoMapper(opt=>opt.AddProfile(new MapperProfile(new HttpContextAccessor())));
             services.AddValidatorsFromAssemblyContaining<Program>();
@@ -62,6 +63,36 @@ namespace ApiProjectPractise
                     services.AddAuthentication();
                 }
                 );
+
+
+            //add jwt to swagger
+            services.AddSwaggerGen(options =>
+            {
+                
+                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    In = ParameterLocation.Header,
+                    Description = "Enter JWT token"
+                });
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+            });
         }
     }
 }

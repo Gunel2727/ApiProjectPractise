@@ -8,6 +8,7 @@ namespace ApiProjectPractise.Dtos.ProductDtos
         public string Description { get; set; } = null!;
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public  List<int> ColorIds { get; set; }
     }
     public class ProductCreateDtoValidator : AbstractValidator<ProductCreateDto>
     {
@@ -24,6 +25,11 @@ namespace ApiProjectPractise.Dtos.ProductDtos
             RuleFor(x => x.Price)
                 .GreaterThan(0)
                 .LessThanOrEqualTo(100000);
+
+            RuleFor(x=>x.ColorIds)
+                .NotEmpty()
+                .Must(colorIds => colorIds.All(id => id > 0))
+                .WithMessage("All color IDs must be greater than 0.");
         }
 
     }

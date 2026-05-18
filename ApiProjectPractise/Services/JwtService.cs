@@ -24,7 +24,7 @@ namespace ApiProjectPractise.Services
                 issuer: config["Jwt:Issuer"],
                 audience: config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddSeconds(30),
+                expires: DateTime.Now.AddMinutes(30),
                 signingCredentials: creds
                 );
             var token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);

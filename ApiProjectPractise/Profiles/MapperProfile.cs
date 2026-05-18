@@ -28,9 +28,17 @@ namespace ApiProjectPractise.Profiles
                
             CreateMap<Product,ProductInCategoryReturnDto>();
             CreateMap<CategoryUpdateDto,Category>();
-            CreateMap<ProductCreateDto,Product>();
-                CreateMap<Product,ProductReturnDto>();
-                CreateMap<Category,CategoryInProductReturnDto>();
+            CreateMap<ProductCreateDto, Product>()
+                .ForMember(dest => dest.ProductColors, opt => opt.MapFrom(src =>
+                    src.ColorIds.Select(colorId => new ProductColor { ColorId = colorId }).ToList()));
+
+            CreateMap<Product, ProductReturnDto>();
+            //.ForMember(dest => dest.ProductColors, opt => opt.MapFrom(src =>
+            //    src.ProductColors.Select
+            //    (pc => new ColorsInProductReturnDto { Name = pc.Color.Name }).ToList()));
+
+            CreateMap<ProductColor, ColorsInProductReturnDto>();
+            CreateMap<Category,CategoryInProductReturnDto>();
             CreateMap<ProductUpdateDto,Product>();
             CreateMap<RegisterDto, AppUser>();
 

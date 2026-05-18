@@ -145,7 +145,6 @@ C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\appsettings.json
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\ApiProjectPractise.staticwebassets.runtime.json
@@ -297,3 +296,7 @@ C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\ApiProjectPractise.pdb
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\ApiProjectPractise.genruntimeconfig.cache
 C:\Users\gunelemu\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\ref\ApiProjectPractise.dll
+C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gunel\OneDrive\Desktop\ApiProjectPractise\ApiProjectPractise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

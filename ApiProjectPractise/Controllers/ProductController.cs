@@ -19,6 +19,8 @@ namespace ApiProjectPractise.Controllers
             {
                 var products = appDbContext.Products
                 .Include(p => p.Category)
+                .Include(p => p.ProductColors)
+                    .ThenInclude(pc => pc.Color)
                 .ToList();
                     var productDtos = mapper.Map<List<ProductReturnDto>>(products);
                     return Ok(productDtos);
@@ -50,7 +52,15 @@ namespace ApiProjectPractise.Controllers
                     {
                         return BadRequest("Invalid CategoryId");
                     }
-                 var newProduct = mapper.Map<Product>(productCreateDto);
+                foreach(var colorId in productCreateDto.ColorIds)
+                {
+                    var color = appDbContext.Colors.Find(colorId);
+                    if (color == null)
+                    {
+                        return BadRequest($"Invalid ColorId: {colorId}");
+                    }
+            }
+            var newProduct = mapper.Map<Product>(productCreateDto);
                     appDbContext.Products.Add(newProduct);
                     appDbContext.SaveChanges();
                     return Ok(newProduct);

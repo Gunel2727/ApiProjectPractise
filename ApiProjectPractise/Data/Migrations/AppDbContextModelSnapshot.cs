@@ -126,6 +126,68 @@ namespace ApiProjectPractise.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("ApiProjectPractise.Models.Color", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colors");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Red"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Green"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Blue"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Yellow"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Black"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "White"
+                        });
+                });
+
             modelBuilder.Entity("ApiProjectPractise.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -163,6 +225,78 @@ namespace ApiProjectPractise.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("ApiProjectPractise.Models.ProductColor", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "ColorId");
+
+                    b.HasIndex("ColorId");
+
+                    b.ToTable("ProductColors");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            ColorId = 1
+                        },
+                        new
+                        {
+                            ProductId = 1,
+                            ColorId = 2
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            ColorId = 1
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            ColorId = 3
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            ColorId = 4
+                        },
+                        new
+                        {
+                            ProductId = 5,
+                            ColorId = 5
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            ColorId = 6
+                        },
+                        new
+                        {
+                            ProductId = 7,
+                            ColorId = 1
+                        },
+                        new
+                        {
+                            ProductId = 8,
+                            ColorId = 2
+                        },
+                        new
+                        {
+                            ProductId = 9,
+                            ColorId = 3
+                        },
+                        new
+                        {
+                            ProductId = 10,
+                            ColorId = 4
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -309,6 +443,25 @@ namespace ApiProjectPractise.Data.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("ApiProjectPractise.Models.ProductColor", b =>
+                {
+                    b.HasOne("ApiProjectPractise.Models.Color", "Color")
+                        .WithMany("ProductColors")
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ApiProjectPractise.Models.Product", "Product")
+                        .WithMany("ProductColors")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -363,6 +516,16 @@ namespace ApiProjectPractise.Data.Migrations
             modelBuilder.Entity("ApiProjectPractise.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("ApiProjectPractise.Models.Color", b =>
+                {
+                    b.Navigation("ProductColors");
+                });
+
+            modelBuilder.Entity("ApiProjectPractise.Models.Product", b =>
+                {
+                    b.Navigation("ProductColors");
                 });
 #pragma warning restore 612, 618
         }

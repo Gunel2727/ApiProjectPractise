@@ -13,7 +13,7 @@ namespace ApiProjectPractise.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class CategoryController(AppDbContext appDbContext,IMapper mapper,IValidator<CategoryCreateDto> validator) : ControllerBase
     {
         [HttpGet]
