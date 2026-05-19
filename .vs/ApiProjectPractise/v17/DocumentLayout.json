@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\controllers\\uiaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\uiaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\views\\uiaccount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\uiaccount\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\views\\uiaccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\uiaccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\viewmodels\\tokenresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\tokenresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8AD6540-47A2-4142-A8FA-DBBA99C81377}|WebApplication1\\WebApplication1.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,16 +95,8 @@
       "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\models\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|solutionrelative:apiprojectpractise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BE6C40B-43CD-46AD-874C-66EB7BB9F976}|ApiProjectPractise\\ApiProjectPractise.csproj|c:\\users\\gunel\\onedrive\\desktop\\apiprojectpractise\\apiprojectpractise\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -98,50 +114,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAoAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T18:00:06.158Z",
+              "WhenOpened": "2026-05-18T21:38:24.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T17:47:22.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T17:38:36.792Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "TokenResponseVm.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T21:18:56.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\LoginVm.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\LoginVm.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModels\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T21:01:17.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\UiAccount\\Login.cshtml",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\UiAccount\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T21:00:37.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\UiAccount\\Register.cshtml",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Register.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\UiAccount\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T17:34:46.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UiAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\UiAccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UiAccountController.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\UiAccountController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UiAccountController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwCUAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T17:33:09.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:42:48.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegisterVm.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\RegisterVm.cs",
               "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\RegisterVm.cs",
@@ -149,38 +211,59 @@
               "RelativeToolTip": "WebApplication1\\ViewModels\\RegisterVm.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwBcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:36:39.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\UiAccount\\Register.cshtml",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\UiAccount\\Register.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\UiAccount\\Register.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T17:34:46.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UiAccountController.cs",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\UiAccountController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UiAccountController.cs",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\UiAccountController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\UiAccountController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwBgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T17:33:09.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T17:36:39.211Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ApiProjectPractise\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:06:38.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T17:38:36.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T17:47:22.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T18:00:06.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ProductReturnDto.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\ProductDtos\\ProductReturnDto.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Dtos\\ProductDtos\\ProductReturnDto.cs",
@@ -188,12 +271,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Dtos\\ProductDtos\\ProductReturnDto.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA4wBoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:39:53.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:39:53.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Profiles\\MapperProfile.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Profiles\\MapperProfile.cs",
@@ -201,12 +283,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Profiles\\MapperProfile.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:06:47.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:06:47.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Data\\AppDbContext.cs",
@@ -214,12 +295,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:21:12.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:21:12.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\ProductController.cs",
@@ -227,12 +307,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA0wBYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:22:50.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:22:50.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\ServiceRegistration.cs",
@@ -240,12 +319,11 @@
               "RelativeToolTip": "ApiProjectPractise\\ServiceRegistration.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAgwBcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T10:16:49.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T10:16:49.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ProductColorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Data\\Configurations\\ProductColorConfiguration.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Data\\Configurations\\ProductColorConfiguration.cs",
@@ -253,12 +331,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Data\\Configurations\\ProductColorConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:54:02.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:54:02.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "ColorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Data\\Configurations\\ColorConfiguration.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Data\\Configurations\\ColorConfiguration.cs",
@@ -266,12 +343,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Data\\Configurations\\ColorConfiguration.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwBgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:52:20.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:52:20.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Dtos\\ProductDtos\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Dtos\\ProductDtos\\ProductCreateDto.cs",
@@ -279,12 +355,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Dtos\\ProductDtos\\ProductCreateDto.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:20:53.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:20:53.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Models\\Product.cs",
@@ -292,12 +367,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:49:31.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:49:31.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Color.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Models\\Color.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Models\\Color.cs",
@@ -305,12 +379,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Models\\Color.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:46:16.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:46:16.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "ProductColor.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Models\\ProductColor.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Models\\ProductColor.cs",
@@ -318,38 +391,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Models\\ProductColor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:46:48.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:46:48.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ApiProjectPractise\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:42:48.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ApiProjectPractise\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ApiProjectPractise\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T10:06:38.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Services\\JwtService.cs",
@@ -357,12 +403,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Services\\JwtService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T10:15:14.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T10:15:14.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Properties\\launchSettings.json",
@@ -370,12 +415,11 @@
               "RelativeToolTip": "ApiProjectPractise\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T15:21:30.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:21:30.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\ApiProjectPractise\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "ApiProjectPractise\\Models\\AppUser.cs",
@@ -383,8 +427,7 @@
               "RelativeToolTip": "ApiProjectPractise\\Models\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:21:00.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:21:00.057Z"
             }
           ]
         }
