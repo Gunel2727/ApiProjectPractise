@@ -1,0 +1,34 @@
+﻿using System.Net.Http.Headers;
+
+namespace WebApplication1.Handlers
+{
+    public class AuthTokenHandler : DelegatingHandler
+    {
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public AuthTokenHandler(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
+
+        protected override async Task<HttpResponseMessage> SendAsync(
+            HttpRequestMessage request,
+            CancellationToken cancellationToken)
+        {
+            var httpContext = _httpContextAccessor.HttpContext;
+            if (httpContext != null && httpContext.Items.ContainsKey("token"))
+            {
+                var token =httpContext.Items["token"] as string;
+
+                if (!string.IsNullOrWhiteSpace(token))
+                {
+                    request.Headers.Authorization =
+                        new AuthenticationHeaderValue("Bearer", token);
+                }
+            }
+           
+
+            return await base.SendAsync(request, cancellationToken);
+        }
+    }
+}

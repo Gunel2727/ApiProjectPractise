@@ -1,0 +1,89 @@
+﻿@using WebApplication1.Dtos
+@model CategoryReturnDto
+
+<div class="container py-5">
+
+    <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+
+        <img src="@Model.ImageUrl"
+             class="w-100"
+             style="height:450px; object-fit:cover;" />
+
+        <div class="card-body p-5">
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+
+                <h1 class="fw-bold">
+                    @Model.Name
+                </h1>
+
+                <div class="d-flex gap-2">
+
+                    <a asp-action="Update"
+                       asp-route-id="@Model.Id"
+                       class="btn btn-warning">
+                        Update
+                    </a>
+
+                    <a asp-action="Delete"
+                       asp-route-id="@Model.Id"
+                       class="btn btn-danger">
+                        Delete
+                    </a>
+
+                </div>
+
+            </div>
+
+            <p class="text-muted fs-5">
+                @Model.Description
+            </p>
+
+            @if (Model.Products != null && Model.Products.Any())
+            {
+                <div class="mt-5">
+
+                    <h3 class="fw-bold mb-4">
+                        Products
+                    </h3>
+
+                    <div class="row">
+
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="col-md-6 mb-4">
+
+                                <div class="border rounded-4 p-4 h-100 shadow-sm">
+
+                                    <h5 class="fw-semibold mb-3">
+                                        @product.Name
+                                    </h5>
+
+                                    <p class="text-muted mb-0">
+                                        @product.Description
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        }
+
+                    </div>
+
+                </div>
+            }
+
+            <div class="mt-4">
+
+                <a asp-action="Index"
+                   class="btn btn-outline-dark">
+                    ← Back To Categories
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

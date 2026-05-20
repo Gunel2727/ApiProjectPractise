@@ -1,3 +1,7 @@
+using WebApplication1.Filters;
+using WebApplication1.Handlers;
+using WebApplication1.Filters;
+
 namespace WebApplication1
 {
     public class Program
@@ -7,8 +11,17 @@ namespace WebApplication1
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.Filters.Add<AuthTokenFilter>();
+            });
             builder.Services.AddHttpClient();
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddTransient<AuthTokenHandler>();
+
+            builder.Services.AddHttpClient("ApiClient")
+                .AddHttpMessageHandler<AuthTokenHandler>();
 
             var app = builder.Build();
 
