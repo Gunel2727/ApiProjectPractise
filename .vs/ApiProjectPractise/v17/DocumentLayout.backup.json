@@ -124,22 +124,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T21:38:24.284Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TokenResponseVm.cs",
-              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
-              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
-              "RelativeToolTip": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T21:18:56.856Z"
             },
             {
               "$type": "Document",
@@ -199,7 +187,20 @@
               "RelativeToolTip": "ApiProjectPractise\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T15:42:48.738Z"
+              "WhenOpened": "2026-05-18T15:42:48.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenResponseVm.cs",
+              "DocumentMoniker": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModels\\TokenResponseVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T21:18:56.856Z"
             },
             {
               "$type": "Document",
