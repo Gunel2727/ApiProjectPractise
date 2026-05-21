@@ -117,6 +117,11 @@ namespace WebApplication1.Controllers
         }
 
 
+        public IActionResult actionResult()
+        {
+            return View();
 
-    }
+        }
+
+        }
 }

@@ -66,8 +66,7 @@
               "RelativeToolTip": "WebApplication1\\ViewModels\\CategoryCreateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T22:11:03.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:11:03.83Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\UiAccountController.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T22:08:18.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:08:18.759Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T22:04:36.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:04:36.648Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:52:07.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:52:07.217Z"
             },
             {
               "$type": "Document",
@@ -116,7 +112,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\gunel\\OneDrive\\Desktop\\ApiProjectPractise\\WebApplication1\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwHgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wHsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T20:35:53.522Z",
               "EditorCaption": ""
@@ -131,8 +127,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Category\\Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T20:40:24.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:40:24.3Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "WebApplication1\\Filters\\AuthTokenFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:49:13.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:49:13.948Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T20:40:53.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:40:53.127Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "WebApplication1\\Handlers\\AuthTokenHandler.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:57:01.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:57:01.115Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "ApiProjectPractise\\Profiles\\MapperProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T21:05:38.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T21:05:38.474Z"
             },
             {
               "$type": "Document",
@@ -196,8 +187,7 @@
               "RelativeToolTip": "WebApplication1\\Dtos\\CategoryReturnDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T20:42:10.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T20:42:10.307Z"
             }
           ]
         }
