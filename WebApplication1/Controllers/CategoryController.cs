@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using WebApplication1.Dtos;
+using WebApplication1.ViewModels;
 
 namespace WebApplication1.Controllers
 {
@@ -28,7 +29,7 @@ namespace WebApplication1.Controllers
 
                 if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 {
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Login", "UiAccount");
                 }
 
 
@@ -81,7 +82,7 @@ namespace WebApplication1.Controllers
                 );
                 if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 {
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Login", "UiAccount");
                 }
 
 
@@ -117,11 +118,72 @@ namespace WebApplication1.Controllers
         }
 
 
-        public IActionResult actionResult()
+        [HttpGet]
+        public IActionResult Create()
         {
             return View();
-
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Create(CategoryCreateViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var client = _httpClientFactory.CreateClient("ApiClient");
+
+            var content = new MultipartFormDataContent();
+
+            content.Add(
+                new StringContent(model.Name),
+                "Name"
+            );
+
+            content.Add(
+                new StringContent(model.Description),
+                "Description"
+            );
+
+            if (model.Photo != null)
+            {
+                var fileContent = new StreamContent(model.Photo.OpenReadStream());
+
+                fileContent.Headers.ContentType =
+                    new MediaTypeHeaderValue(model.Photo.ContentType);
+
+                content.Add(
+                    fileContent,
+                    "Photo",
+                    model.Photo.FileName
+                );
+            }
+
+            var response = await client.PostAsync(
+                "http://localhost:5202/api/Category",
+                content
+            );
+
+            if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+            {
+                return RedirectToAction("Login", "UiAccount");
+            }
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = await response.Content.ReadAsStringAsync();
+
+                ModelState.AddModelError("", error);
+
+                return View(model);
+            }
+
+            return RedirectToAction(nameof(Index));
         }
+
+
+
+
+    }
 }

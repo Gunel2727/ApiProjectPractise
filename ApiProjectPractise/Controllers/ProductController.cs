@@ -63,8 +63,11 @@ namespace ApiProjectPractise.Controllers
             var newProduct = mapper.Map<Product>(productCreateDto);
                     appDbContext.Products.Add(newProduct);
                     appDbContext.SaveChanges();
-                    return Ok(newProduct);
-             }
+                var result = mapper.Map<ProductReturnDto>(newProduct);
+                return Ok(result);
+        }
+
+
             [HttpPut("{id}")]
             public IActionResult UpdateProduct(int id, ProductUpdateDto productUpdateDto)
             {

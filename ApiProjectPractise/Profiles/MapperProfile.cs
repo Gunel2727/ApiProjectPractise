@@ -1,4 +1,5 @@
 ﻿using ApiProjectPractise.Dtos.CategoryDtos;
+using ApiProjectPractise.Dtos.ColorDtos;
 using ApiProjectPractise.Dtos.ProductDtos;
 using ApiProjectPractise.Dtos.UserDtos;
 using ApiProjectPractise.Extensions;
@@ -42,6 +43,8 @@ namespace ApiProjectPractise.Profiles
             CreateMap<Category,CategoryInProductReturnDto>();
             CreateMap<ProductUpdateDto,Product>();
             CreateMap<RegisterDto, AppUser>();
+
+            CreateMap<Color,ColorReturnDto>();
 
         }
     }

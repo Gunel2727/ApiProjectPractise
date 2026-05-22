@@ -147,6 +147,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiProjectPractise.Controllers.ColorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Color",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiProjectPractise.Controllers.ProductController",
     "Method": "GetProducts",
     "RelativePath": "api/Product",

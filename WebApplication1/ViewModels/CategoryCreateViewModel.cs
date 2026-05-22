@@ -16,6 +16,6 @@ namespace WebApplication1.ViewModels
 
         [Required]
         [Display(Name = "Category Image")]
-        public IFormFile File { get; set; } = null!;
+        public IFormFile Photo { get; set; } = null!;
     }
 }

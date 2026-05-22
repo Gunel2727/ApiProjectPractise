@@ -233,6 +233,18 @@
         }
       }
     },
+    "/api/Color": {
+      "get": {
+        "tags": [
+          "Color"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product": {
       "get": {
         "tags": [
